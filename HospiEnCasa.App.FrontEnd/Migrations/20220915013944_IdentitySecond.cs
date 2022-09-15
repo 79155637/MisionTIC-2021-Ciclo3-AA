@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace HospiEnCasa.App.Persistencia.Migrations
+namespace HospiEnCasa.App.FrontEnd.Migrations
 {
-    public partial class Entidades : Migration
+    public partial class IdentitySecond : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
