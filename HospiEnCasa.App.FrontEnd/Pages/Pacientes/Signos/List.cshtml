@@ -4,7 +4,7 @@
     int pacienteId= Model.Paciente.Id;
 }
 
-<h1>Listado de Signos Vitales</h1>
+<h6>Listado de Signos Vitales de: @Model.Paciente.Nombre @Model.Paciente.Apellidos</h6>
 
 <table class="table">
     @foreach (var signo in Model.SignosPaciente)
@@ -16,7 +16,7 @@
         </tr>
     }
 </table>
-                <a class="btn btn-primary table-btn" asp-page="../Edit" asp-route-pacienteId="@pacienteId">
+                <a class="btn btn-primary table-btn" asp-page="../Details" asp-route-pacienteId="@pacienteId">
                     <i aria-hidden="true">Regresar</i>
                 </a>
 

@@ -1,7 +1,7 @@
 ﻿@page
 @model HospiEnCasa.App.FrontEnd.Pages.EditModel
 @{
-    int pacienteId=Model.Paciente.Id;
+   
 }
 
 <h2>Edición de los datos del Paciente: @Model.Paciente.Nombre @Model.Paciente.Apellidos</h2>
@@ -46,9 +46,7 @@
 
     <button type="submit" class="btn btn-primary">Grabar</button>
 
-    <a class="btn btn-primary table-btn" asp-page="./Signos/List" asp-route-pacienteId="@pacienteId">
-        <i aria-hidden="true">Signos Vitales</i>
-    </a>
+    
 </form>
 <a asp-page="./List" class="btn btn-primary"> Regresar a la lista de Pacientes </a>
 

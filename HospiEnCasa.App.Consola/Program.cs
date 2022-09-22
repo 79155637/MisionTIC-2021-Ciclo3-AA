@@ -20,7 +20,8 @@ namespace HospiEnCasa.App.Consola
       //AddPacienteConSignos();
       //AddPaciente();
       //BuscarPaciente(2);
-      AsignarMedico(); //Hace falta crear al menos un MEDICO//
+      //AsignarMedico(); 
+      BorrarPaciente(3);
     }
 
 
@@ -93,16 +94,29 @@ namespace HospiEnCasa.App.Consola
       Console.WriteLine(paciente.Nombre + " " + paciente.Apellidos);
       Console.WriteLine(paciente);
     }
-
+    
+    private static void BorrarPaciente(int idPaciente)
+    {
+      var paciente = _repoPaciente.DeletePaciente(idPaciente);
+      if (paciente!= null)
+      {
+        Console.WriteLine(paciente.Nombre + " " + paciente.Apellidos + " BORRADO");
+        Console.WriteLine(paciente);
+      }
+      else
+      {
+        Console.WriteLine("PACIENTE: "+ idPaciente +" **NO EXISTE**");
+      }
+    }
     private static void AsignarMedico()
     {
       var medico = _repoPaciente.AsignarMedico(6, 4);
       Console.WriteLine("Medico ASIGNADO al PACIENTE 6 ");
-      Console.WriteLine("DATOS del MEDICO: " +medico.Id + " " + medico.Nombre + " " + medico.Apellidos + " " + medico.Codigo + " " + medico.Especialidad +" "+ medico.Genero + "\n\n");
-      
+      Console.WriteLine("DATOS del MEDICO: " + medico.Id + " " + medico.Nombre + " " + medico.Apellidos + " " + medico.Codigo + " " + medico.Especialidad + " " + medico.Genero + "\n\n");
+
     }
- 
- 
+
+
     private static void ListarPacientesMasculinos()
     {
       var pacientesM = _repoPaciente.GetPacientesMasculinos();
