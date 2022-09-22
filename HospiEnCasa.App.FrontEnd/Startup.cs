@@ -28,8 +28,6 @@ namespace HospiEnCasa.App.FrontEnd
             
             services.AddRazorPages();
             services.AddDbContext<HospiEnCasa.App.Persistencia.AppContext>();
-            
-            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

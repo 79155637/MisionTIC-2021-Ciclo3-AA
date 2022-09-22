@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "evLvh2apup384Znc4HOqsDI0soRWbVlb/3+LK0jlJqlPobyKg8+1ma7CT4jmChP+Noa4fvWsRU4NqQwQXQzttg==",
+  "dgSpecHash": "if9RxXSB0kpBv0bJIBunAAP79Omu4gErk88lMlCT0+2tntOYLYSKa4bK2vaEvbklMZpgU/HMEHd7Y+fbFSybwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\david\\Documents\\GitHub\\MisionTIC-2021-Ciclo3-AA\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\david\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

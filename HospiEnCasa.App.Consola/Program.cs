@@ -16,11 +16,11 @@ namespace HospiEnCasa.App.Consola
       //ListarPacientesCorazon();
       //ListarPacientesFiltro();   
       //ListarPacientesMasculinos();
-      AddSignosPaciente(2);
+      //AddSignosPaciente(2);
       //AddPacienteConSignos();
       //AddPaciente();
       //BuscarPaciente(2);
-      //AsignarMedico(); //Hace falta crear al menos un MEDICO//
+      AsignarMedico(); //Hace falta crear al menos un MEDICO//
     }
 
 
@@ -96,11 +96,13 @@ namespace HospiEnCasa.App.Consola
 
     private static void AsignarMedico()
     {
-      var medico = _repoPaciente.AsignarMedico(1, 2);
-      Console.WriteLine(medico.Nombre + " " + medico.Apellidos);
+      var medico = _repoPaciente.AsignarMedico(6, 4);
+      Console.WriteLine("Medico ASIGNADO al PACIENTE 6 ");
+      Console.WriteLine("DATOS del MEDICO: " +medico.Id + " " + medico.Nombre + " " + medico.Apellidos + " " + medico.Codigo + " " + medico.Especialidad +" "+ medico.Genero + "\n\n");
+      
     }
-
-
+ 
+ 
     private static void ListarPacientesMasculinos()
     {
       var pacientesM = _repoPaciente.GetPacientesMasculinos();

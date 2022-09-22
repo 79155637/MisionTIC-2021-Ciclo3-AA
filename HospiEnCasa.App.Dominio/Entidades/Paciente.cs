@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 namespace HospiEnCasa.App.Dominio
 {
     /// <summary>Class <c>Paciente</c>

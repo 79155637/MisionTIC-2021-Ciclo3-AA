@@ -4,6 +4,9 @@
 }
 <h2>Datos Detallados de Paciente @Model.Paciente.Nombre @Model.Paciente.Apellidos</h2>
 <div>
+    IDENTIFICACION: @Model.Paciente.Id
+</div>
+<div>
     Nombre: @Model.Paciente.Nombre
 </div>
 <div>
@@ -19,4 +22,8 @@
     Dirección: @Model.Paciente.Direccion
 </div>
 
-<a asp-page="./List" class="btn-default">Volver a la Lista de Pacientes.. </a>
+<div>
+    Medico Id: @Model.Paciente.Medico.Id Nombre: @Model.Paciente.Medico.Nombre  @Model.Paciente.Medico.Apellidos
+</div>
+
+<a asp-page="./List" class="btn btn-primary"> Volver a la Lista de Pacientes </a>

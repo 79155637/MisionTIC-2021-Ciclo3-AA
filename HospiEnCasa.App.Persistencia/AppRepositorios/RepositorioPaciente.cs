@@ -36,18 +36,22 @@ namespace HospiEnCasa.App.Persistencia
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
             if (pacienteEncontrado == null)
+            {
                 return;
+            }
             _appContext.Pacientes.Remove(pacienteEncontrado);
             _appContext.SaveChanges();
         }
 
        public IEnumerable<Paciente> GetAllPacientes()
         {
-            return GetAllPacientes_();
+            return _appContext.Pacientes.Include(m => m.Medico);
         }
+        
+
         public IEnumerable<Paciente> GetPacientesPorFiltro(string filtro)
         {
-            var pacientes = GetAllPacientes(); // Obtiene todos los saludos
+            var pacientes = GetAllPacientes(); // Obtiene todos los Pacientes
             if (pacientes != null)  //Si se tienen saludos
             {
                 if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
@@ -60,19 +64,15 @@ namespace HospiEnCasa.App.Persistencia
 
         }
 
-        public IEnumerable<Paciente> GetAllPacientes_()
-        {
-            return _appContext.Pacientes;
-        }
 
         public Paciente GetPaciente(int idPaciente)
         {
-            return _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
+            return _appContext.Pacientes.Include(m => m.Medico).Include(e => e.Enfermera).Include(f => f.Familiar).FirstOrDefault(p => p.Id == idPaciente);
         }
 
         public Paciente UpdatePaciente(Paciente paciente)
         {
-            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == paciente.Id);
+            var pacienteEncontrado = _appContext.Pacientes.Include(m => m.Medico).FirstOrDefault(p => p.Id == paciente.Id);
             if (pacienteEncontrado != null)
             {
                 pacienteEncontrado.Nombre = paciente.Nombre;
@@ -86,6 +86,15 @@ namespace HospiEnCasa.App.Persistencia
                 pacienteEncontrado.FechaNacimiento = paciente.FechaNacimiento;
                 pacienteEncontrado.Familiar = paciente.Familiar;
                 pacienteEncontrado.Enfermera = paciente.Enfermera;
+               /* var medicoEncontrado = _appContext.Personas.OfType<Medico>().FirstOrDefault(m => m.Id == paciente.Medico.Id);
+                if(medicoEncontrado != null)
+                {
+                    pacienteEncontrado.Medico = medicoEncontrado;
+                }
+                else
+                {
+                    pacienteEncontrado.Medico = null;
+                }*/
                 pacienteEncontrado.Medico = paciente.Medico;
                 pacienteEncontrado.Historia = paciente.Historia;
 

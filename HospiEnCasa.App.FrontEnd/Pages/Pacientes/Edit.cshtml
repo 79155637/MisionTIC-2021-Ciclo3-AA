@@ -4,7 +4,7 @@
     int pacienteId=Model.Paciente.Id;
 }
 
-<h2>Edición de los datos del Paciente @Model.Paciente.Nombre @Model.Paciente.Apellidos</h2>
+<h2>Edición de los datos del Paciente: @Model.Paciente.Nombre @Model.Paciente.Apellidos</h2>
 <form method="post">
     <input type="hidden" asp-for="Paciente.Id" />
     <div class="form-group">
@@ -27,11 +27,21 @@
         <input asp-for="Paciente.Ciudad" class="form-control">
         <span class="text-danger" asp-validation-for="Paciente.Ciudad"></span>
     </div>
+    <div class="form-group">
+        <label asp-for="Paciente.FechaNacimiento"></label>
+        <input asp-for="Paciente.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="Paciente.Direccion"></span>
+    </div>
 
     <div class="form-group">
         <label asp-for="Paciente.Direccion"></label>
         <input asp-for="Paciente.Direccion" class="form-control">
         <span class="text-danger" asp-validation-for="Paciente.Direccion"></span>
+    </div>
+   <div class="form-group">
+        <label asp-for="Paciente.Medico.Id"></label>
+        <input asp-for="Paciente.Medico.Id" class="form-control">
+        <span class="text-danger" asp-validation-for="Paciente.Medico"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Grabar</button>
@@ -40,5 +50,5 @@
         <i aria-hidden="true">Signos Vitales</i>
     </a>
 </form>
-<a asp-page="./List" class="btn-default">Regresar a la lista de Pacientes </a>
+<a asp-page="./List" class="btn btn-primary"> Regresar a la lista de Pacientes </a>
 
