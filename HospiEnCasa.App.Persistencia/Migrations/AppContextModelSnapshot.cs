@@ -15,16 +15,16 @@ namespace HospiEnCasa.App.Persistencia.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.9")
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("ProductVersion", "5.0.0");
 
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Historia", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .UseIdentityColumn();
 
                     b.Property<string>("Diagnostico")
                         .HasColumnType("nvarchar(max)");
@@ -42,10 +42,12 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .UseIdentityColumn();
 
                     b.Property<string>("Apellidos")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Discriminator")
                         .IsRequired()
@@ -55,7 +57,9 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("NumeroTelefono")
                         .HasColumnType("nvarchar(max)");
@@ -72,7 +76,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .UseIdentityColumn();
 
                     b.Property<DateTime>("FechaHora")
                         .HasColumnType("datetime2");
@@ -98,7 +102,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .UseIdentityColumn();
 
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");

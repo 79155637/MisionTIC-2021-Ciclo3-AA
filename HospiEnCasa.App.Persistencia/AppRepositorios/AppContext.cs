@@ -20,9 +20,12 @@ namespace HospiEnCasa.App.Persistencia
             /*  optionsBuilder
                .UseSqlServer("Server=tcp:misiontic2022.database.windows.net,1433;Initial Catalog=HospiEncasatData;Persist Security Info=False;User ID=admin_01;Password=09122006_Hf;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
                */
-             if(!optionsBuilder.IsConfigured){
+             /*if(!optionsBuilder.IsConfigured){
                 optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = HospiEncasaOF;Trusted_Connection=True;");
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = HospiEncasaOF;Trusted_Connection=True;");*/
+            if(!optionsBuilder.IsConfigured){
+                optionsBuilder
+                .UseSqlServer("Server=tcp:dvmisiontic2022.database.windows.net,1433;Initial Catalog=HospiEnCasaData;Persist Security Info=False;User ID=DV79155637;Password=0109@Davel92;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
              }
             }
         }
