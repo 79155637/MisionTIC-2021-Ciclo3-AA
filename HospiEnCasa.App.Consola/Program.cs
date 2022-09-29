@@ -21,7 +21,7 @@ namespace HospiEnCasa.App.Consola
       //AddPaciente();
       //BuscarPaciente(2);
       //AsignarMedico(); 
-      BorrarPaciente(3);
+      //BorrarPaciente(3);
     }
 
 

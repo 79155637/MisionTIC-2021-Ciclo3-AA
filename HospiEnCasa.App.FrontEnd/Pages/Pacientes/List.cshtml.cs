@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace HospiEnCasa.App.FrontEnd.Pages
 {
 
-    [Authorize]
+    //[Authorize]
     public class ListModel : PageModel
     {
         private readonly IRepositorioPaciente repositorioPacientes;

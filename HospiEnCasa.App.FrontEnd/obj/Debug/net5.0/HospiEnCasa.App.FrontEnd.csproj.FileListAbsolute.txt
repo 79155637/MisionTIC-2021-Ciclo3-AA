@@ -175,13 +175,18 @@ C:\MisionTIC-2021-Ciclo3-BD\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\HospiEnCas
 C:\MisionTIC-2021-Ciclo3-BD\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\ref\HospiEnCasa.App.FrontEnd.dll
 C:\MisionTIC-2021-Ciclo3-BD\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\HospiEnCasa.App.FrontEnd.pdb
 C:\MisionTIC-2021-Ciclo3-BD\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\HospiEnCasa.App.FrontEnd.genruntimeconfig.cache
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\publish\web.config
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\web.config
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\appsettings.json
-C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\web.config
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\appsettings.Development.json
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\appsettings.json
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\HospiEnCasa.App.FrontEnd.deps.json
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\HospiEnCasa.App.FrontEnd.runtimeconfig.json
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\publish\appsettings.Development.json
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\publish\appsettings.json
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\publish\HospiEnCasa.App.FrontEnd.deps.json
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\publish\publish\HospiEnCasa.App.FrontEnd.runtimeconfig.json
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\HospiEnCasa.App.FrontEnd.StaticWebAssets.xml
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\HospiEnCasa.App.FrontEnd.exe
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Debug\net5.0\HospiEnCasa.App.FrontEnd.deps.json
@@ -330,6 +335,7 @@ C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEn
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Pacientes\Details.cshtml.g.cs
@@ -338,6 +344,8 @@ C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEn
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Pacientes\Signos\List.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\HospiEnCasa.App.FrontEnd.RazorTargetAssemblyInfo.cache
@@ -349,6 +357,3 @@ C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEn
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\HospiEnCasa.App.FrontEnd.pdb
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\HospiEnCasa.App.FrontEnd.genruntimeconfig.cache
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\ref\HospiEnCasa.App.FrontEnd.dll
-C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
-C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs

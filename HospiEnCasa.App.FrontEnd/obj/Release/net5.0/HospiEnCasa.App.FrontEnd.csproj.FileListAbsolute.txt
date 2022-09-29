@@ -352,3 +352,8 @@ C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEn
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Release\net5.0\HospiEnCasa.App.FrontEnd.pdb
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Release\net5.0\HospiEnCasa.App.FrontEnd.genruntimeconfig.cache
 C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\obj\Release\net5.0\ref\HospiEnCasa.App.FrontEnd.dll
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Release\net5.0\publish\publish\web.config
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Release\net5.0\publish\publish\appsettings.Development.json
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Release\net5.0\publish\publish\appsettings.json
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Release\net5.0\publish\publish\HospiEnCasa.App.FrontEnd.deps.json
+C:\Users\david\Documents\GitHub\MisionTIC-2021-Ciclo3-AA\HospiEnCasa.App.FrontEnd\bin\Release\net5.0\publish\publish\HospiEnCasa.App.FrontEnd.runtimeconfig.json

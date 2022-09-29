@@ -19,5 +19,7 @@
     "titleBar.inactiveBackground": "#83256199",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#832561"
+  "peacock.color": "#832561",
+  "appService.defaultWebAppToDeploy": "/subscriptions/37700b23-2598-40aa-b768-bdadf926635f/AppServices/subscriptions/37700b23-2598-40aa-b768-bdadf926635f/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/MisionRic2022",
+  "appService.deploySubpath": "HospiEnCasa.App.FrontEnd\\publish"
 }
